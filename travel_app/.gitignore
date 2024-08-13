@@ -26,4 +26,7 @@ yarn-error.log*
 # AWS Lambda環境用檔案
 python_script
 
+# 有密鑰忽略檔案
 weather-service/node_modules
+weather-service/.env
+weather-service/lambda-function.zip
