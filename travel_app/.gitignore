@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+**/node_modules
 /.pnp
 .pnp.js
 
@@ -12,8 +13,8 @@
 /build
 
 # misc
-.env
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -23,11 +24,43 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
 # AWS Lambda環境用檔案
-python_script
+python_script/
 
 # 有密鑰忽略檔案
-weather-service/node_modules
-weather-service/.env
-weather-service/lambda-function.zip
+travel_app/weather-service/node_modules
+travel_app/weather-service/.env
+travel_app/weather-service/lambda-function.zip
+
+# IDE 和編輯器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系統生成的文件
+Thumbs.db
+.DS_Store
+
+# 日誌文件
+*.log
+
+# 臨時文件
+*.tmp
+*.temp
+
+# 編譯輸出
+/dist
+
+# 本地環境文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 緩存文件
+.cache/
+
+# 其他不需要版本控制的文件
+*.bak
+*.backup
