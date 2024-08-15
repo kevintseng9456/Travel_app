@@ -28,6 +28,8 @@ yarn-error.log*
 python_script/
 
 # 有密鑰忽略檔案
+travel_app/.env
+**/weather-service/.env
 travel_app/weather-service/node_modules
 travel_app/weather-service/.env
 travel_app/weather-service/lambda-function.zip
